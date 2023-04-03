@@ -97,10 +97,10 @@ header {
 	margin-top: 0;
 	padding-top: 6vw;
 	padding-bottom: 10vw;
-	overflow: hidden;
+	// overflow: hidden;
 }
 	.content-area {
-		transform: translatey(-2vw);
+		//transform: translatey(-2vw);
 		z-index: 2;
 	}
 		.statement {
@@ -121,12 +121,13 @@ header {
 				content: "";
 				position: absolute;
 				z-index: -1;
-				background: url(../images/waveform.svg) center center no-repeat;
+				background: url(../images/waveform.png) center center no-repeat;
 				width: 100vw;
-				height: 50vw;
+				height: 100vw;
 				left: 50%;
 				top: 50%;
 				transform: translate(-50%, -50%);
+				background-size: 46.875vw;
 			}
 		}
 
@@ -232,8 +233,7 @@ footer {
     	width: 60%;
     	margin: 18vw auto 0;
     	&:after {
-    		width: 90vw;
-    		height: 26vw;
+    		background-size: 90vw;
     	}
 	}
 	footer {
@@ -295,8 +295,7 @@ footer {
     	width: 60%;
     	margin: 18vw auto 0;
     	&:after {
-    		width: 126vw;
-    		height: 36vw;
+    		background-size: 120vw;
     	}
 	}
 	footer {
