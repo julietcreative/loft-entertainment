@@ -150,9 +150,9 @@ h1 {
   content: "";
   position: absolute;
   z-index: -1;
-  background: url(../images/waveform.svg) 0 0 no-repeat;
-  width: 46.875vw;
-  height: 13.194vw;
+  background: url(../images/waveform.svg) center center no-repeat;
+  width: 100vw;
+  height: 50vw;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
